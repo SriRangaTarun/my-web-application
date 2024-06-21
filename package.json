@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "http-server": "14.1.1",
+    "plotly.js-dist": "^2.33.0"
+  },
+  "scripts": {
+    "start": "http-server src/frontend -p 3000 -c-1 -o -s"
+  }
+}
